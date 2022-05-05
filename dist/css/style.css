@@ -1,10 +1,12 @@
+.no-webp body {
+  background: url(../img/Background.jpg); }
+
 body {
   margin: 0;
   font-size: 36px;
   font-weight: 400;
   color: #000;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background: url(../img/Background.jpg);
 }
 
 h1,
@@ -34,6 +36,7 @@ button {
   background-color: inherit;
   cursor: pointer;
 }
+
 button:hover {
   text-decoration: underline;
 }
@@ -72,16 +75,19 @@ button:hover {
   flex: 0 0 70%;
   margin-top: 50px;
 }
+
 .timer__blocks {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 50px;
 }
+
 .timer__block {
   text-align: center;
   font-size: 40px;
 }
+
 .timer .time {
   font-size: 100px;
 }
@@ -115,15 +121,18 @@ button:hover {
   font-size: 30px;
   transition: 0.3s ease-in-out;
 }
+
 .buttons:hover {
   color: rgb(226, 51, 51);
   border: 2px solid rgb(226, 51, 51);
 }
+
 .buttons.new:disabled {
   cursor: not-allowed;
   border: 2px solid rgba(255, 255, 255, 0.212);
   color: rgba(255, 255, 255, 0.212);
 }
+
 .buttons.new:disabled:hover {
   text-decoration: none;
 }
@@ -132,6 +141,7 @@ button:hover {
   overflow: hidden;
   height: 375px;
 }
+
 .laps__block .laps {
   display: flex;
   flex-wrap: wrap;
@@ -140,12 +150,14 @@ button:hover {
 .clear__button {
   text-align: center;
 }
+
 .clear__button .clear {
   border: 2px solid #000;
   border-radius: 20px;
   width: 300px;
   margin: 40px 0;
 }
+
 .clear__button .clear:hover {
   color: white;
   border: 2px solid rgb(255, 255, 255);
@@ -153,10 +165,6 @@ button:hover {
 
 .results__info {
   flex: 0 0 33%;
-}
-
-.hidden {
-  display: none;
 }
 
 .alarm {
@@ -179,9 +187,11 @@ button:hover {
   font-size: 24px;
   margin: 20px 0px;
 }
+
 .alarm__inputs .inputs__blocks {
   text-align: center;
 }
+
 .alarm__inputs input {
   width: 70px;
   height: 25px;
@@ -191,14 +201,17 @@ button:hover {
   color: white;
   padding: 0 7px;
 }
+
 .alarm__inputs input:focus {
   outline: none;
   border: 1px solid rgb(255, 133, 133);
 }
+
 .alarm__inputs input[type=number]::-webkit-outer-spin-button,
 .alarm__inputs input[type=number]::-webkit-inner-spin-button {
   display: none;
 }
+
 .alarm__inputs .alarm__button {
   padding: 5px 40px;
   margin: 0;
@@ -218,13 +231,16 @@ button:hover {
   border: 1px solid black;
   border-radius: 20px;
 }
+
 .alarm__left .alarm__title {
   font-size: 24px;
   text-align: center;
 }
+
 .alarm__left .alarm__timeleft {
   text-align: center;
 }
+
 .alarm__left .alarm__timeleft:hover {
   text-decoration: line-through;
   cursor: pointer;
@@ -237,17 +253,20 @@ button:hover {
   margin-top: 30px;
 }
 
+.no-webp .alarm__clock {
+  background: url(../img/clock.png); }
+
 .alarm__clock {
   width: 500px;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/clock.png);
   background-size: cover;
   box-shadow: 0 -15px 15px rgba(209, 168, 56, 0.212), inset 0 -15px 15px rgba(120, 59, 233, 0.2941176471), 0 15px 15px rgba(35, 58, 87, 0.212), inset 0 15px 15px rgba(120, 59, 233, 0.3568627451);
   border-radius: 50%;
 }
+
 .alarm__clock::before {
   content: "";
   position: absolute;
@@ -257,27 +276,40 @@ button:hover {
   border-radius: 50%;
   z-index: 999;
 }
-.alarm__clock .hour, .alarm__clock .min, .alarm__clock .sec {
+
+.alarm__clock .hour,
+.alarm__clock .min,
+.alarm__clock .sec {
   position: absolute;
 }
-.alarm__clock .hour, .alarm__clock .hr {
+
+.alarm__clock .hour,
+.alarm__clock .hr {
   width: 240px;
   height: 240px;
 }
-.alarm__clock .min, .alarm__clock .mn {
+
+.alarm__clock .min,
+.alarm__clock .mn {
   width: 320px;
   height: 320px;
 }
-.alarm__clock .sec, .alarm__clock .sc {
+
+.alarm__clock .sec,
+.alarm__clock .sc {
   width: 380px;
   height: 380px;
 }
-.alarm__clock .hr, .alarm__clock .mn, .alarm__clock .sc {
+
+.alarm__clock .hr,
+.alarm__clock .mn,
+.alarm__clock .sc {
   display: flex;
   justify-content: center;
   position: absolute;
   border-radius: 50%;
 }
+
 .alarm__clock .hr::before {
   content: "";
   position: absolute;
@@ -287,6 +319,7 @@ button:hover {
   z-index: 10;
   border-radius: 6px 6px 0 0;
 }
+
 .alarm__clock .mn::before {
   content: "";
   position: absolute;
@@ -296,6 +329,7 @@ button:hover {
   z-index: 11;
   border-radius: 6px 6px 0 0;
 }
+
 .alarm__clock .sc::before {
   content: "";
   position: absolute;
@@ -319,3 +353,11 @@ button:hover {
   opacity: 0.6;
   z-index: 6;
 }
+
+.hidden {
+  display: none;
+}
+
+.webp body { background: url(../img/Background.webp); }
+
+.webp .alarm__clock { background: url(../img/clock.webp); }

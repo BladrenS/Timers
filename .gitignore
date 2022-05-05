@@ -1,6 +1,7 @@
 /gulp
 /node_modules
 /src
+Макет.png
 gulpfile.js
 package-lock.json
 package.json
