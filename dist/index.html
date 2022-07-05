@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.min.css?_v=20220505234142">
+   <link rel="stylesheet" href="css/style.css">
    <link rel="icon" href="img/timer.png" sizes="32x32">
    <title>Главная</title>
 </head>
+
 <body>
    <header>
-</header>
+   </header>
    <div class="container">
       <div class="button__block">
          <button class="button" id="button--timer">Timer</button>
@@ -44,57 +46,57 @@
          <div class="clear__button">
             <button class="clear" id="clear_results">Clear results</button>
          </div>
-            <div class="controle__buttons">
-               <button class="buttons start">Start</button>
-               <button class="buttons stop">Stop</button>
-               <button class="buttons pause">Pause</button>
-               <button class="buttons new">New lap</button>
-            </div>
+         <div class="controle__buttons">
+            <button class="buttons start">Start</button>
+            <button class="buttons stop">Stop</button>
+            <button class="buttons pause">Pause</button>
+            <button class="buttons new">New lap</button>
+         </div>
       </div>
       <div class="alarm">
          <div class="alarm__title">
             Alarm clock
          </div>
-            <div class="alarm__inputs">
-               <div class="inputs__blocks">
-                  <div class="alarm__text">
-                     Hours
-                  </div>
-                     <input type="text" maxlength="2" class="alarm__input" id="input__h">
+         <div class="alarm__inputs">
+            <div class="inputs__blocks">
+               <div class="alarm__text">
+                  Hours
                </div>
-               <div class="inputs__blocks">
-                  <div class="alarm__text">
-                     Minutes
-                  </div>
-                     <input type="text" maxlength="2" class="alarm__input" id="input__m">
-               </div>
-               <div class="inputs__blocks">
-                  <div class="alarm__text">
-                     Seconds
-                  </div>
-                     <input type="text" maxlength="2" class="alarm__input" id="input__s">
-               </div>
-               <button class="buttons alarm__button" id="start__alarm">
-                  <!-- <input type="submit"> -->
-                  Start
-               </button>
+               <input type="text" maxlength="2" class="alarm__input" id="input__h">
             </div>
-            <div class="alarm__block">
-               <div class="alarm__clock">
-                  <div class="hour">
-                     <div class="hr" id="hr"></div>
-                  </div>
-                  <div class="min">
-                     <div class="mn" id="mn"></div>
-                  </div>
-                  <div class="sec">
-                     <div class="sc" id="sc"></div>
-                  </div>
+            <div class="inputs__blocks">
+               <div class="alarm__text">
+                  Minutes
                </div>
-               <div class="alarm__left">
-                  <div class="alarm__title">Time left</div>
+               <input type="text" maxlength="2" class="alarm__input" id="input__m">
+            </div>
+            <div class="inputs__blocks">
+               <div class="alarm__text">
+                  Seconds
+               </div>
+               <input type="text" maxlength="2" class="alarm__input" id="input__s">
+            </div>
+            <button class="buttons alarm__button" id="start__alarm">
+               <!-- <input type="submit"> -->
+               Start
+            </button>
+         </div>
+         <div class="alarm__block">
+            <div class="alarm__clock">
+               <div class="hour">
+                  <div class="hr" id="hr"></div>
+               </div>
+               <div class="min">
+                  <div class="mn" id="mn"></div>
+               </div>
+               <div class="sec">
+                  <div class="sc" id="sc"></div>
                </div>
             </div>
+            <div class="alarm__left">
+               <div class="alarm__title">Time left</div>
+            </div>
+         </div>
          <div class="alarm__time">
             <div class="timer__block">
                <div class="time hour" id="alarmh">00</div>
@@ -114,4 +116,5 @@
    <footer></footer>
    <script src="js/app.min.js?_v=20220505234142"></script>
 </body>
+
 </html>

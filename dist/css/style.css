@@ -1,12 +1,13 @@
 .no-webp body {
-  background: url(../img/Background.jpg); }
+   background: url(../img/Background.jpg);
+}
 
 body {
-  margin: 0;
-  font-size: 36px;
-  font-weight: 400;
-  color: #000;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   margin: 0;
+   font-size: 36px;
+   font-weight: 400;
+   color: #000;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1,
@@ -15,349 +16,348 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+   margin: 0;
 }
 
 p {
-  margin: 0 0 20px;
+   margin: 0 0 20px;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 button {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: inherit;
-  cursor: pointer;
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   background-color: inherit;
+   cursor: pointer;
 }
 
 button:hover {
-  text-decoration: underline;
+   text-decoration: underline;
 }
 
 .button {
-  width: 150px;
-  border: 2px solid #000;
-  border-radius: 20px;
-  padding: 30px 10px;
-  margin: 50px;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
+   width: 150px;
+   border: 2px solid #000;
+   border-radius: 20px;
+   padding: 30px 10px;
+   margin: 50px;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
 }
 
 .container {
-  width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
+   width: 90%;
+   height: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
 }
 
 .button__block {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 0 0 28%;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex: 0 0 28%;
+   align-items: center;
 }
 
 .timer {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 70%;
-  margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   flex: 0 0 70%;
+   margin-top: 50px;
 }
 
 .timer__blocks {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 50px;
 }
 
 .timer__block {
-  text-align: center;
-  font-size: 40px;
+   text-align: center;
+   font-size: 40px;
 }
 
 .timer .time {
-  font-size: 100px;
+   font-size: 100px;
 }
 
 .laps__block {
-  width: 100%;
-  height: 45%;
-  border: 2px solid #000;
-  border-radius: 20px;
+   width: 100%;
+   height: 45%;
+   border: 2px solid #000;
+   border-radius: 20px;
 }
 
 .laps__title {
-  font-size: 32px;
-  text-align: center;
+   font-size: 32px;
+   text-align: center;
 }
 
 .laps {
-  margin: 0 15px;
-  text-align: center;
+   margin: 0 15px;
+   text-align: center;
 }
 
 .controle__buttons {
-  display: flex;
-  justify-content: space-around;
+   display: flex;
+   justify-content: space-around;
 }
 
 .buttons {
-  border: 2px solid #000;
-  border-radius: 20px;
-  padding: 5px 60px;
-  font-size: 30px;
-  transition: 0.3s ease-in-out;
+   border: 2px solid #000;
+   border-radius: 20px;
+   padding: 5px 60px;
+   font-size: 30px;
+   transition: 0.3s ease-in-out;
 }
 
 .buttons:hover {
-  color: rgb(226, 51, 51);
-  border: 2px solid rgb(226, 51, 51);
+   color: rgb(226, 51, 51);
+   border: 2px solid rgb(226, 51, 51);
 }
 
 .buttons.new:disabled {
-  cursor: not-allowed;
-  border: 2px solid rgba(255, 255, 255, 0.212);
-  color: rgba(255, 255, 255, 0.212);
+   cursor: not-allowed;
+   border: 2px solid rgba(255, 255, 255, 0.212);
+   color: rgba(255, 255, 255, 0.212);
 }
 
 .buttons.new:disabled:hover {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 .laps__block {
-  overflow: hidden;
-  height: 375px;
+   overflow: hidden;
+   height: 375px;
 }
 
 .laps__block .laps {
-  display: flex;
-  flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .clear__button {
-  text-align: center;
+   text-align: center;
 }
 
 .clear__button .clear {
-  border: 2px solid #000;
-  border-radius: 20px;
-  width: 300px;
-  margin: 40px 0;
+   border: 2px solid #000;
+   border-radius: 20px;
+   width: 300px;
+   margin: 40px 0;
 }
 
 .clear__button .clear:hover {
-  color: white;
-  border: 2px solid rgb(255, 255, 255);
+   color: white;
+   border: 2px solid rgb(255, 255, 255);
 }
 
 .results__info {
-  flex: 0 0 33%;
+   flex: 0 0 33%;
 }
 
 .alarm {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 70%;
-  margin-top: 30px;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   flex: 0 0 70%;
+   margin-top: 30px;
+   align-items: center;
 }
 
 .alarm__title {
-  font-size: 50px;
+   font-size: 50px;
 }
 
 .alarm__inputs {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 800px;
-  font-size: 24px;
-  margin: 20px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 800px;
+   font-size: 24px;
+   margin: 20px 0px;
 }
 
 .alarm__inputs .inputs__blocks {
-  text-align: center;
+   text-align: center;
 }
 
 .alarm__inputs input {
-  width: 70px;
-  height: 25px;
-  background-color: inherit;
-  border: 1px solid #000;
-  border-radius: 10px;
-  color: white;
-  padding: 0 7px;
+   width: 70px;
+   height: 25px;
+   background-color: inherit;
+   border: 1px solid #000;
+   border-radius: 10px;
+   color: white;
+   padding: 0 7px;
 }
 
 .alarm__inputs input:focus {
-  outline: none;
-  border: 1px solid rgb(255, 133, 133);
+   outline: none;
+   border: 1px solid rgb(255, 133, 133);
 }
 
-.alarm__inputs input[type=number]::-webkit-outer-spin-button,
-.alarm__inputs input[type=number]::-webkit-inner-spin-button {
-  display: none;
+.alarm__inputs input[type="number"]::-webkit-outer-spin-button,
+.alarm__inputs input[type="number"]::-webkit-inner-spin-button {
+   display: none;
 }
 
 .alarm__inputs .alarm__button {
-  padding: 5px 40px;
-  margin: 0;
+   padding: 5px 40px;
+   margin: 0;
 }
 
 .alarm__block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 750px;
-  margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 750px;
+   margin-top: 20px;
 }
 
 .alarm__left {
-  flex: 0 0 25%;
-  height: 50%;
-  border: 1px solid black;
-  border-radius: 20px;
+   flex: 0 0 25%;
+   height: 50%;
+   border: 1px solid black;
+   border-radius: 20px;
 }
 
 .alarm__left .alarm__title {
-  font-size: 24px;
-  text-align: center;
+   font-size: 24px;
+   text-align: center;
 }
 
 .alarm__left .alarm__timeleft {
-  text-align: center;
+   text-align: center;
 }
 
 .alarm__left .alarm__timeleft:hover {
-  text-decoration: line-through;
-  cursor: pointer;
+   text-decoration: line-through;
+   cursor: pointer;
 }
 
 .alarm__time {
-  display: flex;
-  justify-content: space-around;
-  width: 800px;
-  margin-top: 30px;
+   display: flex;
+   justify-content: space-around;
+   width: 800px;
+   margin-top: 30px;
 }
 
-.no-webp .alarm__clock {
-  background: url(../img/clock.png); }
-
 .alarm__clock {
-  width: 500px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  box-shadow: 0 -15px 15px rgba(209, 168, 56, 0.212), inset 0 -15px 15px rgba(120, 59, 233, 0.2941176471), 0 15px 15px rgba(35, 58, 87, 0.212), inset 0 15px 15px rgba(120, 59, 233, 0.3568627451);
-  border-radius: 50%;
+   background-image: url(../img/clock.png);
+   width: 500px;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   box-shadow: 0 -15px 15px rgba(209, 168, 56, 0.212), inset 0 -15px 15px rgba(120, 59, 233, 0.2941176471),
+      0 15px 15px rgba(35, 58, 87, 0.212), inset 0 15px 15px rgba(120, 59, 233, 0.3568627451);
+   border-radius: 50%;
 }
 
 .alarm__clock::before {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background: rgb(49, 49, 49);
-  border-radius: 50%;
-  z-index: 999;
+   content: "";
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   background: rgb(49, 49, 49);
+   border-radius: 50%;
+   z-index: 999;
 }
 
 .alarm__clock .hour,
 .alarm__clock .min,
 .alarm__clock .sec {
-  position: absolute;
+   position: absolute;
 }
 
 .alarm__clock .hour,
 .alarm__clock .hr {
-  width: 240px;
-  height: 240px;
+   width: 240px;
+   height: 240px;
 }
 
 .alarm__clock .min,
 .alarm__clock .mn {
-  width: 320px;
-  height: 320px;
+   width: 320px;
+   height: 320px;
 }
 
 .alarm__clock .sec,
 .alarm__clock .sc {
-  width: 380px;
-  height: 380px;
+   width: 380px;
+   height: 380px;
 }
 
 .alarm__clock .hr,
 .alarm__clock .mn,
 .alarm__clock .sc {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   border-radius: 50%;
 }
 
 .alarm__clock .hr::before {
-  content: "";
-  position: absolute;
-  width: 8px;
-  height: 120px;
-  background-color: rgb(86, 35, 134);
-  z-index: 10;
-  border-radius: 6px 6px 0 0;
+   content: "";
+   position: absolute;
+   width: 8px;
+   height: 120px;
+   background-color: rgb(86, 35, 134);
+   z-index: 10;
+   border-radius: 6px 6px 0 0;
 }
 
 .alarm__clock .mn::before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 160px;
-  background-color: rgb(0, 0, 0);
-  z-index: 11;
-  border-radius: 6px 6px 0 0;
+   content: "";
+   position: absolute;
+   width: 4px;
+   height: 160px;
+   background-color: rgb(0, 0, 0);
+   z-index: 11;
+   border-radius: 6px 6px 0 0;
 }
 
 .alarm__clock .sc::before {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 215px;
-  background-color: rgb(0, 0, 0);
-  z-index: 12;
-  border-radius: 6px 6px 0 0;
+   content: "";
+   position: absolute;
+   width: 2px;
+   height: 215px;
+   background-color: rgb(0, 0, 0);
+   z-index: 12;
+   border-radius: 6px 6px 0 0;
 }
 
 .clock {
-  width: 500px;
-  height: 500px;
-  z-index: 5;
+   width: 500px;
+   height: 500px;
+   z-index: 5;
 }
 
 .clock__logo {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  opacity: 0.6;
-  z-index: 6;
+   position: absolute;
+   top: 200px;
+   left: 200px;
+   opacity: 0.6;
+   z-index: 6;
 }
 
 .hidden {
-  display: none;
+   display: none;
 }
 
-.webp body { background: url(../img/Background.webp); }
-
-.webp .alarm__clock { background: url(../img/clock.webp); }
+.webp body {
+   background: url(../img/Background.webp);
+}
